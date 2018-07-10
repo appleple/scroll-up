@@ -38,6 +38,9 @@
     "watch": "^1.0.1",
     "watchify": "^3.7.0"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "es6-object-assign": "^1.1.0",
     "scroll-to": "0.0.2"
