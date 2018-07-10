@@ -1,0 +1,8 @@
+.babelrc
+/docs/*
+/examples/*
+/js/*
+.editorconfig
+.eslintrc
+.gitignore
+.gitattributes
