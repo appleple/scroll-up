@@ -27,6 +27,6 @@ yarn add @appleple/scroll-up
 import the js with babel and Browserify/Webpack
 
 ```js
-import ScrollUp from 'scroll-up';
+import ScrollUp from '@appleple/scroll-up';
 new ScrollUp('.js-scroll-up');
 ```
