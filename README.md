@@ -7,19 +7,19 @@ It will be hidden when on top and scrolls up the window smoothly when it's click
 ### via npm
 
 ```sh
-npm install scroll-up --save
+npm install @appleple/scroll-up --save
 ```
 
 ### via yarn
 
 ```sh
-yarn add scroll-up
+yarn add @appleple/scroll-up
 ```
 
 ### via cdn
 
 ```html
-<script src="https://unpkg.com/scroll-up@1.0.0/js/scroll-hint.js"></script>
+<script src="https://unpkg.com/@appleple/scroll-up@1.0.0/js/scroll-hint.js"></script>
 ```
 
 ## Usage
