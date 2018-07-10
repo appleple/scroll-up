@@ -1,5 +1,5 @@
 {
-  "name": "scroll-up",
+  "name": "@appleple/scroll-up",
   "version": "1.0.0",
   "author": "steelydylan",
   "description": "This library is for a fixed scroll to top button.",
