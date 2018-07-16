@@ -1,3 +1,5 @@
+import { createECDH } from "crypto";
+
 export const getScrollTop = () => {
   return window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
 };
@@ -25,7 +27,13 @@ export const getUniqId = () => {
 export const addCSSToElement = (element, css) => {
   const id = getUniqId();
   element.setAttribute('id', id);
-  document.styleSheets[0].insertRule(`#${id}{${css}}`);
+  try {
+    document.styleSheets[0].insertRule(`#${id}{${css}}`);
+  } catch (e) {
+    if (e.message === 'IndexSizeError') {
+      document.styleSheets[0].addRule(`#${id}`, css, 0);
+    }
+  }
 };
 
 export const hasClass = (el, className) => {
